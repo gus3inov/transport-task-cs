@@ -227,9 +227,19 @@ namespace lab1
         MessageBox.Show( "ex" );
       }
     }
-  }
 
-  public class TransportProblem
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gridB_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+    }
+
+    public class TransportProblem
   {
     class InvalidInpFormat : ApplicationException
     {
